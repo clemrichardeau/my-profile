@@ -1,0 +1,96 @@
+ body {
+	background-color: #ffc0cb87;
+	color: #5464ba;
+	font-family: helvetica, serif;
+	font-size : 30px;
+	font-weight: 100;
+	text-align: center;
+}
+
+div{
+	background: #ffc0cb87;
+	border: 2px solid white;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 6px hotpink;
+	padding: 30px;
+}
+
+h1{
+	color: black;
+	font-family: courrier, monospace;
+	letter-spacing: 8px;
+	font-size: 30px;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	text-align: center;
+	color: #e50a97;
+	font-size: 25px;
+}
+
+a:hover{
+	color: white;
+}
+
+ul{
+	list-style: none;
+	text-align: center;
+}
+
+
+img {
+	width: 250px;
+	height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 50%;
+}
+
+/*Custom design with class*/
+.btn-blue{
+	background-color: hotpink;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+.btn-blue:hover{
+	background-color: white;
+	color: hotpink;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.list-inline{
+	padding-left: 0px;
+}
+
+.list-inline Li {
+	display: inline;
+	padding: 10px;
+}
+
+@media(max-width: 600px) {
+	/* For a screen <720px, this CSS will be read */
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+
